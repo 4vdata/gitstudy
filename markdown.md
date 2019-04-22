@@ -55,6 +55,7 @@
 
 ###  引用式链接  
 外部链接 ：[百度]  
+外部链接 ：[baidu]  
 内部链接1：链接仓库的其他文件[入门]
 内部链接2：链接文件的其他部分[代码快]
 
@@ -71,8 +72,15 @@
 
 
 
+I get 10 times more traffic from [1] than from [Yahoo][2] or [MSN][3].  
+
+[1]: http://baidu.com/        "Google" 
+[2]: http://search.yahoo.com/  "Yahoo Search" 
+[3]: http://search.msn.com/    "MSN Search"
+
+
 <!-- 以下是文档的引用链接 -->
-[百度]：https://www.baidu.com  
-[baidu]：https://www.baidu.com  
-[入门]：markdown.md  
+[百度]: https://www.baidu.com/  
+[baidu]: https://www.baidu.com  
+[入门]: markdown.md  
 [代码块]:（markdown.md#代码块）  
