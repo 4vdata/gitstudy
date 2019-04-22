@@ -44,3 +44,25 @@ git commit 命令的-a选项可将所有被修改或者已删除的且已经被g
 从非默认位置更新到指定的url。  
 
 git pull http://git.example.com/project.git  
+
+##  删除  
+如何你想从资源库中删除文件，我们使用rm。  
+
+##  git rm file  
+分支与合并  
+分支在本地完成，速度快。要创建一个新的分支，我们使用branch命令。  
+
+##  git branch test  
+branch命令不会将我们带入分支，只是创建一个新分支。所以我们使用checkout命令来更改分支。  
+
+##  git checkout test  
+第一个分支，或主分支，被称为"master"。  
+
+##  git checkout master  
+对其他分支的更改不会反映在主分支上。如果想将更改提交到主分支，则需切换回master分支，然后使用合并。  
+
+##  git checkout master
+##  git merge test
+如果您想删除分支，我们使用-d标识。
+
+##  git branch -d test
