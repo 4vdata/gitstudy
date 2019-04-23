@@ -155,12 +155,12 @@ Github Flvored Markdown-->GFM
 task list  
 - [x] C  
 - [x] C++  
-[x] Java  
-[x] Qt  
-[x] Android  
-[ ] C#  
-[ ] .NET  
-:smail
+- [x] Java  
+- [x] Qt  
+- [x] Android  
+- [ ] C#  
+- [ ] .NET  
+- :smail
 
 
 
