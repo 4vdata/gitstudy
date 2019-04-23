@@ -62,12 +62,51 @@
 
 ##  图片
   
+![alt](url text)  
+示例：
+插入网络图片
+![avatar](https://www.baidu.com/img/bd_logo1.png "baidu")  
+
+![avatar](https://www.baidu.com/img/bd_logo1.png)  
+插入本地图片  
+![avatar](/home/picture/1.png)
+
+图片的引用链接  
+![avatar][baidulogo]  
 
 ##  引用
+>这是一段引文。这是一段引文。 这是一段引文。 这是一段引文。  
 
+                                       --出字《周后珍》  
+多次引用  
+>>>这是多重引用  
+
+                                       --出自（张三）
 
 
 ##  代码块
+
+插入程序代码的方式有两种，一种是利用缩进(Tab), 另一种是利用 ` 符号（～键）包裹代码。  
+
+插入行内代码，即插入一个单词或者一句代码的情况，使用 `code` 这样的形式插入。  
+插入多行代码，用的最多的是，用六个 ` 包裹多行代码。当然也可以使用缩进或者“` code `”的形式。  
+  
+- 行内代码  
+
+- 块式代码  
+```php  
+<?php 
+echo "hello world!";
+?>  
+``` 
+
+
+
+
+
+
+
+
 
 
 
@@ -83,4 +122,5 @@ I get 10 times more traffic from [1] than from [Yahoo][2] or [MSN][3].
 [百度]: https://www.baidu.com/  
 [baidu]: https://www.baidu.com  
 [入门]: markdown.md  
-[代码块]:（markdown.md#代码块）  
+[代码块]:markdown.md#代码块 
+[baidulogo]:https://www.baidu.com/img/bd_logo1.png
