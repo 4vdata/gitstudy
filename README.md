@@ -17,8 +17,8 @@ git config --global alias.ci commit
 或者vim ~/.gitconfig 编辑
 ## 存储凭证  
 git config --global credential.help vincred  
-
-
+查看仓库使用的协议  
+git remote -v  
 
 
 
