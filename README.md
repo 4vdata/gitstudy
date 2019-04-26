@@ -15,7 +15,7 @@ git log -p -2
 git config --global alias.ci commit  
 也可以在文件.gitconfig 中直接添加别名，这个需要退出分支，在当前个人文件夹中找  
 ## 存储凭证  
-git config --global credential.help vincred
+git config --global credential.help vincred  
 
 
 
