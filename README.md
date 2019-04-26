@@ -19,6 +19,10 @@ git config --global alias.ci commit
 git config --global credential.help vincred  
 查看仓库使用的协议  
 git remote -v  
+## 生成RSA秘钥对  
+ssh-Keygen -t rsa -C "you email"  
+在github网站添加公约  
+使用ssh协议，克隆仓库或者添加远程连接
 
 
 
