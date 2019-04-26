@@ -13,6 +13,9 @@ git log -p -2
 [git提交历史](https://git-scm.com/book/zh/v1/Git-%E5%9F%BA%E7%A1%80-%E6%9F%A5%E7%9C%8B%E6%8F%90%E4%BA%A4%E5%8E%86%E5%8F%B2)  
 ## 定义别名  
 git config --global alias.ci commit  
+也可以在文件.gitconfig 中直接添加别名，这个需要退出分支，在当前个人文件夹中找  
+## 存储凭证  
+git config --global credential.help vincred
 
 
 
