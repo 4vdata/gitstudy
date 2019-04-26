@@ -15,3 +15,4 @@ git log -p -2
 git config --global alias.ci commit  
 
 
+
